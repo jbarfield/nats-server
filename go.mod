@@ -15,6 +15,6 @@ require (
 	golang.org/x/time v0.0.0-20200416051211-89c76fbcd5d1
 )
 
-replace github.com/nats-io/nats-server/v2 v2.2.6 => github.com/jbarfield/nats-server/v2 v2.2.6
+replace github.com/nats-io/nats-server/v2 v2.2.6 => github.com/jbarfield/nats-server/v2 v2.2.6-id
 
-replace github.com/nats-io/nats-server/v2 v2.3.4 => github.com/jbarfield/nats-server/v2 v2.3.4
+replace github.com/nats-io/nats-server/v2 v2.3.4 => github.com/jbarfield/nats-server/v2 v2.3.4-id
