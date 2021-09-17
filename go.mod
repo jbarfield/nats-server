@@ -16,5 +16,4 @@ require (
 )
 
 replace github.com/nats-io/nats-server/v2 v2.2.6 => github.com/jbarfield/nats-server/v2 v2.2.6-id
-
 replace github.com/nats-io/nats-server/v2 v2.3.4 => github.com/jbarfield/nats-server/v2 v2.3.4-id
