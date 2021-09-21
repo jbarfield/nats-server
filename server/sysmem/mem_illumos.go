@@ -11,14 +11,11 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-// +build illumos sunos SmartOS
+//go:build illumos
+// +build illumos
 
 package sysmem
 
-import (
-	 "go-kstat"
-)
-
-func Memory() uint64 {
-	return sysctlInt64("Vminfo.Freemem")
+func Memory() int64 {
+        panic("todo: Memory() call in mem_illumos.go")
 }
