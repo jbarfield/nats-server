@@ -15,6 +15,8 @@ require (
 	golang.org/x/time v0.0.0-20200416051211-89c76fbcd5d1
 )
 
+// updated repo for SmartOS builds
 replace github.com/nats-io/nats-server/v2 v2.2.6 => github.com/jbarfield/nats-server/v2 v2.2.6-id
 
-replace github.com/nats-io/nats-server/v2 v2.3.4 => github.com/jbarfield/nats-server/v2 v2.3.4-id
+// temporarily remove this replace and see if nats-server still try's to get v2.3.4
+// replace github.com/nats-io/nats-server/v2 v2.3.4 => github.com/jbarfield/nats-server/v2 v2.2.6-id
